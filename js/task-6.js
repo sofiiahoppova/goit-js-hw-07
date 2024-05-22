@@ -31,6 +31,8 @@ const createBtn = document.querySelector('[data-create]');
 const destroyBtn = document.querySelector('[data-destroy]');
 const divBoxesElem = document.querySelector('#boxes');
 
+destroyBtn.classList.add('destroy-btn');
+
 createBtn.addEventListener('click', onCreateBtnClick);
 destroyBtn.addEventListener('click', ondestroyBtnClick);
 
